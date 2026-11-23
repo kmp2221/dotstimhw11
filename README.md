@@ -1,8 +1,10 @@
 # dotstimhw11
 
-a psychopy experiment for a random dot motion task. during this task participants view a collection of moving dot stimuli and indicate whether it is moving left or right 
+## a psychopy experiment for a random dot motion task. 
 
-overview and experimental design 
+during this task participants view a collection of moving dot stimuli and indicate whether it is moving left or right 
+
+# overview and experimental design 
 task type: 2 alternative forced choice motion discrimination task 
 coherance levels: [0.05, 0.1, 0.2, 0.4, 0.8]
 motion directions: left (180 degrees) and right (0 degrees)
@@ -13,8 +15,7 @@ fixation period: + shown for duration between 0.5 and 1.5 seconds
 stimulus & response: dots presented on screen until participant records "left" or "right" on keyboard 
 inter-trial interval (iti): no stimulus shown for 0.5 seconds after each response
 
-prerequisites & setup 
+# prerequisites & setup 
 dependencies: built in python and pyschopy, using pandas and matplotlib for functions
 configuration: window size 1200, 800 
 
-save data to excel file with participant name and type of task 
